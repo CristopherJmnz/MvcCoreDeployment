@@ -17,7 +17,7 @@ namespace MvcCoreDeployment.Controllers
         {
             ViewData["SALUDO"] = "Web deployment de lues";
             List<int>nums= new List<int>(); 
-            for (int i = 0; i < 11; i++)
+            for (int i = 1; i <= 10; i++)
             {
                 nums.Add(i);
             }
